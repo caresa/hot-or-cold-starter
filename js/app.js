@@ -40,7 +40,6 @@ function newGame (){
 	$("#userGuess").val("");
 	$('#feedback').html("Make your Guess!");
 	$("#guessList").val();
-	alert(secretNumber);
 }
 
 /*--- Increments counter /validates that guess is int and 1-100 / clears input field / appends validated guess ---*/
