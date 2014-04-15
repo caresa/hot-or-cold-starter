@@ -86,8 +86,6 @@ function compareGuess (yourGuess) {
 /*--- function to check distance from secretNumber and alert user hot or cold ---*/
 function hotCold (yourGuess){
 	difference = Math.abs(yourGuess - secretNumber);
-	alert(difference);
-
 
 		if (difference >= 50)
 		{
